@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Getsugatensho",page_Icon=":smiling_face_with_sunglasses:",layout="wide")
+st.set_page_config(page_title="Getsugatensho",page_icon=":smiling_face_with_sunglasses:",layout="wide")
 
 st.header("Yo,welcome everyone to Getsuga-tesnsho")
 st.title("*THE GREATEST WARRIOR*") 
