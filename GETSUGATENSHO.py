@@ -9,6 +9,6 @@ st.write(" There once was a great invincible warrior,he was the best at sword fi
 st.write("want to read more amazing stories like this the click learn more","[Learn More>](https://youtu.be/1-spTV0m8iI?si=V7rHc1HLnJLu7m3w)")
 st.write("#")
 st.write("Some lines in the above paragraph were taken from the intro of shadow fight 2 game")
-st.write("I DONT OWN THE LINES THAT WERE TAKEN IN THE ABOVE PARAGRAPH NOR AM I TAKING THE CREDIT FOR IT. THE ABOVE LINES ARE OWNED BY NEKKI.")
+st.write("I DONT OWN THE LINES THAT WERE TAKEN IN THE ABOVE PARAGRAPH NOR AM I TAKING THE CREDIT FOR IT. THE ABOVE LINES ARE OWNED BY NEKKI AND BANZAI GAMES.")
 st.write("---")
 st.subheader("Do visit us again, Bye")
