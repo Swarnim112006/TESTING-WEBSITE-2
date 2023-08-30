@@ -1,11 +1,21 @@
+import requests 
 import streamlit as st
+from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="GETSUGATENSHO", page_icon=":smiling_face_with_sunglasses:", layout="wide")
+def load_lottieurl(url):
+    r = request.get(url)
+    if r.status_code !=200:
+      return None
+    return r.json()
 
-st.header("Yo,welcome everyone to Getsuga-tesnsho")
-st.subheader("A great short story below 👇")
-st.title("*THE GREATEST WARRIOR*") 
-st.write('''In a land where courage reigned, there lived a humble blacksmith named Liam. Despite his ordinary stature, he dreamed of becoming the greatest warrior the realm had ever seen. Guided by determination and an unyielding spirit, Liam embarked on a quest to train under ancient masters. Through rigorous trials, he honed his skills, mastering the art of combat.
+lottie_coding = load_lottieurl("https://asset-cdn.lottiefiles")
+  
+with st.container():
+     st.header("Yo,welcome everyone to Getsuga-tesnsho")
+     st.subheader("A great short story below 👇")
+     st.title("*THE GREATEST WARRIOR*") 
+     st.write('''In a land where courage reigned, there lived a humble blacksmith named Liam. Despite his ordinary stature, he dreamed of becoming the greatest warrior the realm had ever seen. Guided by determination and an unyielding spirit, Liam embarked on a quest to train under ancient masters. Through rigorous trials, he honed his skills, mastering the art of combat.
 
   One fateful day, a fearsome dragon descended upon the kingdom, spreading chaos and terror. The people cried out for a savior, and Liam saw his chance to prove his worth. Armed with his forged blade and indomitable heart, he faced the beast in a battle that shook the earth. The clash of fire and steel echoed through the land, as Liam's unwavering resolve fueled his strikes.
 
